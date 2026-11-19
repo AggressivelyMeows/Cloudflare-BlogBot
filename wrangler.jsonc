@@ -1,0 +1,23 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cf-blogbot",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-11-18",
+  "observability": {
+    "enabled": true
+  },
+  "triggers": {
+    "crons": [
+      "*/5 * * * *"
+    ]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_id": "c6e28601-3b64-4293-ac00-241b46451541"
+    }
+  ],
+  "ai": {
+    "binding": "AI"
+  }
+}

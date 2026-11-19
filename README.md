@@ -1,0 +1,1 @@
+Super simple Cloudflare Blog -> Discord webhook using D1 to keep track of the blogs we've already processed.
